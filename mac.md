@@ -119,9 +119,17 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
 brew install graphviz
 ```
 
+### vscode
+1. 设置shadowsocks代理
+```
+"http.proxy": "http://127.0.0.1:1087",
+"http.proxyStrictSSL": false
+```
+
 ### 其他软件
 - [tomighty](http://tomighty.org/)：番茄时钟
 - pandoc: markdown文件格式处理工具
+- [taskbook](https://github.com/klaussinani/taskbook)：待办事项任务管理工具
 
 ## 键盘
 1.去除caplock的延迟生效
