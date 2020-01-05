@@ -130,6 +130,7 @@ brew install graphviz
 - [tomighty](http://tomighty.org/)：番茄时钟
 - pandoc: markdown文件格式处理工具
 - [taskbook](https://github.com/klaussinani/taskbook)：待办事项任务管理工具
+- [httpie](https://github.com/jakubroztocil/httpie)：一个比curl和wget好用的http客户端命令工具
 
 ## 键盘
 1.去除caplock的延迟生效
