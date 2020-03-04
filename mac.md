@@ -131,6 +131,13 @@ brew install graphviz
 设置：window.zoomLevel
 ```
 
+3. 使用vim插件，hjkl键不能连续移动光标
+```
+mac terminal执行如下：
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
+```
+
 ### 其他软件
 - [tomighty](http://tomighty.org/)：番茄时钟
 - pandoc: markdown文件格式处理工具
