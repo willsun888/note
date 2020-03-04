@@ -126,6 +126,11 @@ brew install graphviz
 "http.proxyStrictSSL": false
 ```
 
+2. 修改vscode explorer的文字大小
+```
+设置：window.zoomLevel
+```
+
 ### 其他软件
 - [tomighty](http://tomighty.org/)：番茄时钟
 - pandoc: markdown文件格式处理工具
