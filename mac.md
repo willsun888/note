@@ -164,3 +164,8 @@ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 ```
 输入: open . 就可以了
 ```
+
+3.禁止生成.DS_Store文件
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool TRUE
+```
