@@ -144,6 +144,7 @@ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 - [taskbook](https://github.com/klaussinani/taskbook)：待办事项任务管理工具
 - [httpie](https://github.com/jakubroztocil/httpie)：一个比curl和wget好用的http客户端命令工具
 - [vimium](https://github.com/philc/vimium): chrome上的vim插件
+- [keka](https://www.keka.io/zh-cn/)：解压缩软件，支持tar、zip等
 
 ## 键盘
 1.去除caplock的延迟生效
