@@ -68,6 +68,12 @@ Ctrl+u            往后滚动半屏
 \U 非大写字母 [^A-Z]
 ```
 
+## 重定义命令
+```
+nnoremap J <C-d>  #将ctrl+d重定义为J
+nnoremap K <C-u>  #将ctrl+u重定义为K
+```
+
 ## 插件
 ### vimium
 vimium chrome的vim插件
