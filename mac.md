@@ -142,6 +142,9 @@ defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 1. 设置保存时gofmt和goimports自动执行
 Preferences->Tool->File Watchers
 
+2. 取消hints
+Preferences->Editor->Inlay Hints->Go
+
 ### 其他软件
 - [tomighty](http://tomighty.org/)：番茄时钟
 - pandoc: markdown文件格式处理工具
