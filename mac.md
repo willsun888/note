@@ -166,6 +166,12 @@ Preferences->Editor->Inlay Hints->Go
 系统设置->键盘->输入法->使用中英键切换ABC输入模式
 ```
 
+2. 自动补全忽略大小写敏感
+```
+vim ~/.inputrc
+set completion-ignore-case on
+```
+
 ## 文件夹
 1.复制文件完整的路径
 
