@@ -57,6 +57,12 @@ SET PASSWORD FOR 'root'@'localhost' = PASSWORD('root');
 
 ```
 
+### java
+```
+brew cask install java
+安装老版本参考：https://stackoverflow.com/questions/24342886/how-to-install-java-8-on-mac
+```
+
 ### sublime text
 **1. Preferences > Key Bindings -> User**
 
