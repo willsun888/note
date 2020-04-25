@@ -159,6 +159,7 @@ Preferences->Editor->Inlay Hints->Go
 - [vimium](https://github.com/philc/vimium): chrome上的vim插件
 - [keka](https://www.keka.io/zh-cn/)：解压缩软件，支持rar，tar、zip等
 - [xmind](https://www.xmind.cn/)：思维脑图
+- [postman]
 
 ## 键盘
 1.去除caplock的延迟生效
