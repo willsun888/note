@@ -9,6 +9,8 @@ brew cask install foo 等同于 brew install caskroom/cask/foo
 - 设置代理：brew是通过curl去下载包的，所以设置curl的代理就可以。在~/.curlrc中添加"proxy =<proxy_host>:<proxy_port>"
 - 无更新formula的install：HOMEBREW_NO_AUTO_UPDATE=1 brew install ...
 
+### bash
+- [让你提升命令行效率的 Bash 快捷键](https://linuxtoy.org/archives/bash-shortcuts.html)
 
 
 ### whistle
