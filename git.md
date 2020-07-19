@@ -292,6 +292,34 @@ You would also need to run 'add' to mark it as resolved:
 
 git add <filename>
 ```
+
+### 对tag代码进行修改
+
+```
+基于指定tag版本创建一个分支
+git checkout -b local_branch tag_name
+
+添加新文件代码
+git add .
+
+提交变更
+git commit -m “紧急修复说明”
+
+删除本地tag
+git tag -d tag_name
+
+将本地最新代码发布成tag版本
+git tag tag_name
+
+将本地tag发布到远程
+git push origin :tag_name
+
+本地代码推送到新的远程tag
+git push origin tag_name
+git fetch origin
+
+```
+
 ## git设置多账号
 
 ## git comment规范
