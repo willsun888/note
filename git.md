@@ -1,3 +1,13 @@
+- [git基础配置](#git基础配置)
+- [git submodule](#git-submodule)
+- [git giff](#git-giff)
+- [撤销操作](#撤销操作)
+- [分支功能](#分支功能)
+  * [对tag代码进行修改](#对tag代码进行修改)
+- [git设置多账号](#git-----)
+- [git comment规范](#git-comment规范)
+
+
 ## git基础配置
 ```
 git config --global user.name  "用户名"
@@ -45,7 +55,7 @@ cd moduleA
 git pull
 ```
 
-备注问题：
+### 备注问题
 
 **1.git submodule update后，会显示modified files status**
 
@@ -80,7 +90,7 @@ HEAD     commit版本
 Index    staged版本
 ```
 
-**diff两个branch**
+### diff两个branch
 
 ```
 // diff between 两个分支
@@ -96,7 +106,7 @@ git diff --stat master origin/master
 
 ## 撤销操作
 
-**1.撤销工作区的修改**
+### 撤销工作区的修改
 
 ```
 $ git status
@@ -107,7 +117,7 @@ Changes not staged for commit:
 $ git checkout -- file xxx.txt
 ```
 
-**2.撤销暂存区的提交**
+### 撤销暂存区的提交
 
 ```
 $ git add readme.txt
@@ -119,7 +129,7 @@ Changes to be committed:
 $ git reset HEAD <file>
 ```
 
-**3.撤销commit的提交**
+### 撤销commit的提交
 
 ```
 $ git log
@@ -137,7 +147,7 @@ Date:   Sun Apr 7 21:30:43 2019 +0800
 $ git reset --hard 6b953d44c732a6914be3f13b0d9172b6fd28b86e // 撤销这次提交
 ```
 
-**4.本地修改冲突时的的保留和撤销**
+### 本地修改冲突时的的保留和撤销
 
 如果本地修改后，在做git pull时，跟线上版本有冲突，会出现如下的错误
 
@@ -165,7 +175,7 @@ git pull
 ```
 
 ## 分支功能
-**1.分支创建**
+### 分支创建
 
 ```
 // 分支创建并切换
@@ -184,14 +194,14 @@ $ git branch
 
 ```
 
-**2.分支合并**
+### 分支合并
 
 ```
 $ git checkout master   // 切到master分支
 $ git merge dev			 // 将dev合并到master
 ```
 
-**3.分支删除**
+### 分支删除
 
 ```
 // 删除本地分支
@@ -206,7 +216,7 @@ If you are sure you want to delete it, run 'git branch -D feature_dobly_audio'
 $ git push origin :branch-name
 ```
 
-**4.分支冲突解决**
+### 分支冲突解决
 
 ```
 $ git merge feature_dobly_audio
