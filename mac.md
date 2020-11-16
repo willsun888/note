@@ -1,4 +1,28 @@
 ## 软件
+### bash_profile
+```bash
+alias ll='ls -lF'
+alias python='/usr/local/bin/python3'
+
+set LANG=en_US.UTF-8
+alias git='LANG=en_US.UTF-8 git'
+alias tree="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
+# git命令
+alias gaa='git add .'
+alias gb='git branch'
+alias gcm='git commit --message'
+alias gco='git checkout'
+alias gcom='git checkout master'
+alias gd='git diff'
+alias gp='git pull'
+alias gs='git status'
+alias glg='git log --graph --oneline --decorate --all'
+alias gld='git log --pretty=format:"%h %ad %s" --date=short --all'
+alias gm='git merge --no-ff'
+```
+
+
 ### brew
 
 - brew install xxxx // install xxxx
